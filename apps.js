@@ -10,4 +10,4 @@ if (userName === "falashade") {
     console.log ("Hi! Welcome, Traveler!");
 }
 
-document.write (" <p id='person-name'>" + userName + "</p>");
+document.write ("<p id='person-name'>" + userName + "</p>");
