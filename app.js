@@ -11,3 +11,4 @@ if (userName === "falashade") {
 }
 
 // how can I put data on the page?
+document.write("<p id='person-name'> " + userName + "</p>");
