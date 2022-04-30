@@ -29,6 +29,18 @@ function myTravel () {
 }
 
 
+let guesses = 3 ;
+for (let i=1; i <= guesses; i ++) {
+    let answer = prompt ( "Where is Sade's favorate place to travel?");
+    if (answer == "iceland") {
+        console.log ("You guessed it!");
+        break;
+    } else if (i < 3) {
+        console.log ("Nice try, but nah!");
+    } else {
+            console.log ("Sorry, my frined.");
+    }
+}
 
 
 
