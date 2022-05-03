@@ -8,11 +8,16 @@ function greeting () {
     
     if (userName === "falashade") {
         console.log("Hey there nomad!");
+        alert ("Hey there nomad!")
     } else {
         console.log ("Hi! Welcome, Traveler!");
+        alert ("Hi! Welcome, Traveler!")
     } 
     
+   
+
     
+   
     document.write("<p id='person-name'> " + userName + "</p>");
 
 }
@@ -34,15 +39,26 @@ for (let i=1; i <= guesses; i ++) {
     let answer = prompt ( "Where is Sade's favorate place to travel?");
     if (answer == "iceland") {
         console.log ("You guessed it!");
+        alert ("You guessed it!")
         break;
     } else if (i < 3) {
         console.log ("Nice try, but nah!");
-    } else {
-            console.log ("Sorry, my frined.");
+        alert ("Nice try, but nah!")
+    } else  {
+            console.log ("Sorry, my friend.");
+            alert ("Sorry, my friend")
     }
 }
 
+let image = prompt ("ok, one more try!")
+for (let i = 1; i < image; i ++) {
+   
 
+    //document.getimage ('<img id="palm-tree" src="./images/palmtree.jpeg"/>');
+}
+
+var img = document.getElementById ("img");
+img.src = id="palm-tree" + "palmtree.jpeg";
 
 
 
