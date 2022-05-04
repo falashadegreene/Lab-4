@@ -76,6 +76,8 @@ footer {
     float: right;    
 }
 
-#palm-tree {
+.palm-tree {
     float: right;
+    width: 45px;
+    height: 45px;
 }
