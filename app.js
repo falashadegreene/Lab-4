@@ -18,7 +18,7 @@ function greeting () {
 
     
    
-    document.write("<p id='person-name'> " + userName + "</p>");
+    
 
 }
 greeting ()
@@ -47,18 +47,13 @@ for (let i=1; i <= guesses; i ++) {
     } else  {
             console.log ("Sorry, my friend.");
             alert ("Sorry, my friend")
-    }
+    } 
+    
 }
 
-let image = prompt ("ok, one more try!")
-for (let i = 1; i < image; i ++) {
-   
 
-    //document.getimage ('<img id="palm-tree" src="./images/palmtree.jpeg"/>');
-}
 
-var img = document.getElementById ("img");
-img.src = id="palm-tree" + "palmtree.jpeg";
+
 
 
 
